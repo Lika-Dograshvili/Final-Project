@@ -175,10 +175,16 @@ main {
   color: #ffffff;
   background: #b53b1b;
   border-radius: 5px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.direction:hover {
+  transform: scale(1.5);
 }
 .product1 {
   width: 20%;
   height: 260px;
+  border-radius: 8px;
   background-image: url(../image/home/latestproducts\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,6 +205,7 @@ main {
 .product2 {
   width: 20%;
   height: 260px;
+  border-radius: 8px;
   background-image: url(../image/home/latestproducts\ 2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,6 +215,7 @@ main {
 .product3 {
   width: 20%;
   height: 260px;
+  border-radius: 8px;
   background-image: url(../image/home/latestproducts\ 3.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -217,9 +225,17 @@ main {
 .product4 {
   width: 20%;
   height: 260px;
+  border-radius: 8px;
   background-image: url(../image/home/latestproducts\ 4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+}
+.black_white:hover {
+  filter: grayscale(100%);
+}
+
+/* section3  */
+.section3 {
 }
