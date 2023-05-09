@@ -264,9 +264,9 @@ main {
   color: #ffffff;
   font-size: 2.5rem;
 }
-.input_div{
- display: flex;
- gap: 0px;
+.input_div {
+  display: flex;
+  gap: 0px;
 }
 .section_3_input {
   padding: 17px 25px;
@@ -282,38 +282,52 @@ main {
   border-radius: 0px 10px 10px 0px;
 }
 /* artice 1  */
-.article1{
+.article1 {
   width: 100%;
-  padding: 162px 242px 160px 141px ;
+  padding: 162px 242px 160px 141px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
-.aticle_title{
+.aticle_title {
   font-size: 2.25rem;
   color: #402101;
   margin-bottom: 40px;
 }
-.artice_text_div{
+.artice_text_div {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3%;
 }
 
-.artice_text{
-background: rgba(213, 144, 110, 0.3);
-border-radius: 8px;
-  
+.artice_text {
+  background: rgba(213, 144, 110, 0.3);
+  border-radius: 8px;
 }
-.artcl_txt_ttl{
+.artcl_txt_ttl {
   font-size: 1.5rem;
-  color: #B53B1B;
+  color: #b53b1b;
   margin-bottom: 24px;
 }
-.artcl_txt{
-font-size: 1rem;
-color: #402101;
+.artcl_txt {
+  font-size: 1rem;
+  color: #402101;
+}
+.question {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  color: #402101;
+  margin-top: 112px;
+  margin-bottom: 20px;
+}
+.helpcenter {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  background: #b53b1b;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 14px 52px;
 }
