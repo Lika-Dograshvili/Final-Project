@@ -41,12 +41,16 @@ li {
 .burgericon {
   display: none;
 }
+.X {
+  display: none;
+}
 .cart {
   color: #ffffff;
   font-size: 1rem;
   display: flex;
   gap: 16px;
 }
+
 /* section 1 */
 .section1 {
   width: 100%;
@@ -475,4 +479,73 @@ footer {
 .fa-cart-shopping {
   background: rgba(213, 144, 110, 0.3);
   border-radius: 5px;
+}
+/* here starts contact page styles  */
+
+/* section 4  */
+.section4 {
+  width: 100%;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../image/contact/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.form_container {
+  width: 26%;
+  height: 400px;
+  padding: 24px 33px;
+  left: 50%;
+  transform: translate(-50%);
+  background: rgba(64, 33, 1, 0.73);
+  border: 1px solid #ffffff;
+  box-shadow: -1px -1px 4px #ffffff;
+  border-radius: 10px;
+}
+.form_title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+.form_name_email_div {
+  display: flex;
+  gap: 25px;
+}
+.name_email_input {
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  background: rgba(64, 33, 1, 0.73);
+  border: 1px solid #ffffff;
+  box-shadow: -1px -1px 4px #ffffff;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.76);
+  margin-bottom: 50px;
+}
+.text_submit_div {
+  display: flex;
+  flex-direction: column;
+}
+.text_area {
+  width: 100%;
+  height: 96px;
+  color: #ffffff;
+  background: rgba(64, 33, 1, 0.73);
+  border: 1px solid #ffffff;
+  box-shadow: -1px -1px 4px #ffffff;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.76);
+  margin-bottom: 35px;
+}
+.submit_btn {
+  width: 147px;
+  height: 56px;
+  background: #d5906e;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
 }
