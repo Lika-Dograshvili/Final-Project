@@ -38,7 +38,7 @@ li {
 }
 li:hover {
   text-shadow: 20px 10px 10px white;
-  text-decoration-line: underline;
+  transform: translateY(-0.25em);
 }
 
 .active {
@@ -464,6 +464,11 @@ footer {
   flex-direction: column;
   gap: 25px;
 }
+.card:hover {
+  -webkit-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
+}
 .img_title {
   font-size: 1rem;
   color: #b53b1b;
@@ -549,6 +554,11 @@ footer {
   border-radius: 10px;
   border: none;
 }
+.submit_btn:hover {
+  transform: translateY(-0.25em);
+  text-decoration: underline;
+}
+
 /* section 5  */
 .section5 {
   width: 100%;
