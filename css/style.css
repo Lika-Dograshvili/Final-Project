@@ -39,10 +39,7 @@ li {
 li:hover {
   text-shadow: 20px 10px 10px white;
   text-decoration-line: underline;
-
 }
-
-
 
 .active {
   color: #d5906e;
@@ -552,11 +549,41 @@ footer {
   border-radius: 10px;
   border: none;
 }
-/* articel 2  */
-.article2 {
-  width: 60%;
-  padding: 160px 365px 160px 365px;
+/* section 5  */
+.section5 {
+  width: 100%;
+  padding: 160px 19%;
+}
+
+.contact_map_div {
+  width: 100%;
+  background-color: rgba(213, 144, 110, 0.3);
   display: flex;
   flex-direction: column;
-  background: rgba(213, 144, 110, 0.3);
+  align-items: center;
+  gap: 40px;
+}
+.contact_title {
+  font-size: 2.5rem;
+  color: #402101;
+  margin-bottom: 40px;
+}
+.contact_map {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 18%;
+}
+.contact_info_div {
+  font-size: 1rem;
+  color: #b53b1b;
+  margin-bottom: 112px;
+}
+
+.info {
+  font-size: 1.125rem;
+  color: #b53b1b;
+}
+.map_div {
+  width: 42%;
 }
