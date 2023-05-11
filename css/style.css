@@ -39,7 +39,11 @@ li {
 li:hover {
   text-shadow: 20px 10px 10px white;
   text-decoration-line: underline;
+
 }
+
+
+
 .active {
   color: #d5906e;
 }
