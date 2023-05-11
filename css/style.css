@@ -22,8 +22,14 @@ header {
 }
 
 .header_logo {
+  font-size: 2.25rem;
+  color: #ffffff;
   transition-duration: 1s;
   transition-timing-function: linear;
+}
+
+span {
+  color: #d5906e;
 }
 .header_logo:hover {
   transform: scale(1.5);
@@ -598,11 +604,12 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 18%;
 }
 .contact_info_div {
   font-size: 1rem;
-  color: #623932;
+  /* color: #623932; */
   margin-bottom: 112px;
 }
 
