@@ -1,15 +1,17 @@
-@media (max-width: 1140px) {
+
+@media (max-width: 1570px) {
   /* index page  */
-  header {
+  header{
+    max-width: inherit;
     width: inherit;
   }
-  .section1_title {
-    width: 100%;
+  .main_div {
+    gap: 30px;
+   justify-content: center;
   }
-  main {
-    padding: 50px 450px 50px 450px;
-  }
-  .mian_div {
-    width: 80%;
+}
+@media (max-width: 1180px) {
+  .main_div{
+    width:80%;
   }
 }
