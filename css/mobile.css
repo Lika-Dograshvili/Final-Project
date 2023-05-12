@@ -110,6 +110,15 @@
   }
 }
 
+@media (max-width: 800px) {
+  .section5 {
+    padding: 64px 3%;
+  }
+  .contact_map_div {
+    width: 100%;
+  }
+}
+
 @media (max-width: 750px) {
   header {
     max-width: inherit;
@@ -150,6 +159,27 @@
   .direction {
     display: none;
   }
+  .main1 {
+    padding: 32px 20px;
+  }
+  .main_left_div {
+    gap: 20px;
+  }
+  .main_right_div {
+    display: none;
+  }
+  .main_left_div {
+    width: 100%;
+  }
+  .img3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main_bottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+
   .section3 {
     height: 320px;
   }
@@ -160,11 +190,100 @@
   .section_2_div {
     width: 90%;
   }
+  .Size {
+    width: 130px;
+  }
+  /* artwork page  */
 
+  .artwork_search_div {
+    flex-direction: column;
+  }
+  /* contact page  */
+
+  .section4 {
+    padding: 32px 20px;
+  }
   .form_container {
-    width: 40%;
+    width: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+  }
+  .contact_map {
+    flex-direction: column;
   }
 }
 
 @media (max-width: 480px) {
+  /* index page  */
+  .section1 {
+    height: 400px;
+  }
+  .section1_title {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  figcaption {
+    font-size: 1rem;
+    margin-top: 2px;
+  }
+  .main1_title,
+  .section2_title,
+  .subriscribe_text,.aticle_title {
+    font-size: 2rem;
+  }
+
+  .section2 {
+    padding: 32px 20px;
+  }
+  .section2_div {
+    padding: 0px 0px;
+  }
+  .section3 {
+    height: 200px;
+  }
+  .section_2_div{
+    gap: 32px;
+  }
+  .section_3_input {
+    padding: 14px 20px;
+  }
+  .section3_btn {
+    padding: 13px 20px;
+  }
+  .article1{
+    padding: 62px 20px;
+  }
+  .artice_text_div{
+    
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+  }
+
+/* artwork page  */
+
+.section3{
+  height: 320px;
+}
+.artwork_main{
+  padding: 64px 57px;
+}
+.hide{
+  display: none;
+}
+.cards_div{
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 40px;
+}
+.SiZe{
+  width: 366px;
+  height: 240px;
+}
+
+
+
 }
