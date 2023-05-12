@@ -48,7 +48,7 @@
   }
 
   .section_2_div {
-    width: 50%;
+    width: 100%;
   }
 
   /* footer  */
@@ -92,6 +92,7 @@
   .sort {
     width: 98px;
   }
+  
   .artwork_main {
     padding: 40px 150px;
   }
@@ -217,8 +218,8 @@
 }
 
 @media (max-width: 480px) {
-   /* index page  */
-   .section1 {
+  /* index page  */
+  .section1 {
     height: 400px;
   }
   .section1_title {
@@ -282,6 +283,8 @@
   .card {
     width: 100%;
   }
-
+  .SiZe {
+    width: 366px;
+    height: 240px;
+  }
 }
- 

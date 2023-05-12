@@ -2,7 +2,7 @@
   max-width: 1920px;
   width: 100%;
   margin-inline: auto;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 /* header  */
@@ -11,17 +11,22 @@ header {
   width: inherit;
   height: 96px;
   top: 0;
+  left: 50%;
+  transform: translate(-50%);
   padding: 37px 11%;
   background-color: rgba(213, 144, 110, 0.52);
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
+  z-index: 10;
   backdrop-filter: blur(8px);
 }
 
 .header_logo {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 2.25rem;
   color: #ffffff;
   transition-duration: 1s;
@@ -29,6 +34,9 @@ header {
 }
 
 span {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #d5906e;
 }
 .header_logo:hover {
@@ -39,6 +47,8 @@ ul {
   gap: 60px;
 }
 li {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   font-size: 1.125;
   color: #ffffff;
 }
@@ -79,7 +89,10 @@ li:hover {
 }
 
 .section1_title {
-  width: 25%;
+  width: 40%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 2.5rem;
   color: #ffffff;
   font-family: "Inter", sans-serif;
@@ -88,6 +101,9 @@ li:hover {
 }
 .section1_text {
   width: 39%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   height: 57px;
   font-size: 1rem;
   color: #ffffff;
@@ -132,6 +148,9 @@ figcaption {
   justify-content: center;
 }
 .main1_title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 40px;
@@ -279,13 +298,15 @@ figcaption {
   background-position: center;
 }
 .section_2_div {
-  width: 33%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 56px;
 }
 .subriscribe_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
   color: #ffffff;
   font-size: 2.5rem;
 }
@@ -491,10 +512,7 @@ footer {
   -moz-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
 }
-.SiZe{
-  width: 366px;
-  height: 240px;
-}
+
 .img_title {
   font-size: 1rem;
   color: #b53b1b;
