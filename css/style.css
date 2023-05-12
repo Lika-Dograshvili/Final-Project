@@ -491,6 +491,10 @@ footer {
   -moz-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
 }
+.SiZe{
+  width: 366px;
+  height: 240px;
+}
 .img_title {
   font-size: 1rem;
   color: #b53b1b;
