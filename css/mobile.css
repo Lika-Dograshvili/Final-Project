@@ -13,6 +13,9 @@
   .allcategory {
     margin-bottom: 60px;
   }
+  .section1_text {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 1010px) {
@@ -92,7 +95,7 @@
   .sort {
     width: 98px;
   }
-  
+
   .artwork_main {
     padding: 40px 150px;
   }
@@ -118,6 +121,9 @@
   .contact_map_div {
     width: 100%;
   }
+  .section1_text {
+    margin-bottom: 207px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -141,7 +147,7 @@
   }
   .section1_text {
     width: 90%;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
   }
   .section1_btn {
     padding: 20px 50px;
@@ -224,7 +230,10 @@
   }
   .section1_title {
     font-size: 2rem;
-    margin-top: 50px;
+    margin-top: 90px;
+  }
+  .section1_text {
+    margin-bottom: 105px;
   }
   figcaption {
     font-size: 1rem;

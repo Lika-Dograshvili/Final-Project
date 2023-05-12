@@ -6,6 +6,7 @@
 }
 
 /* header  */
+/* ყველაფერი ვცადე ჰედერის გამოსასწორებლად მაგრამ მაინც მარჯვნივ გადის (( */
 header {
   max-width: inherit;
   width: inherit;
@@ -107,7 +108,29 @@ li:hover {
   height: 57px;
   font-size: 1rem;
   color: #ffffff;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
+  animation: textanimation 10s linear forwards;
+}
+@keyframes textanimation {
+  0% {
+    font-size: 1rem;
+  }
+
+  25% {
+    font-size: 1.5rem;
+  }
+
+  50% {
+    font-size: 1rem;
+  }
+
+  75% {
+    font-size: 1.5rem;
+  }
+
+  100% {
+    font-size: 1rem;
+  }
 }
 .section1_btn {
   color: #ffffff;
