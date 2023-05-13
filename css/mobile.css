@@ -296,4 +296,12 @@
     width: 366px;
     height: 240px;
   }
+  .contact_title {
+    margin-bottom: 24px;
+  }
+
+  .contact_map {
+    height: 615px;
+    gap: 1px;
+  }
 }

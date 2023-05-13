@@ -73,7 +73,9 @@ li:hover {
   display: flex;
   gap: 16px;
 }
-
+.cart :hover {
+  transform: scale(1.5);
+}
 /* section 1 */
 .section1 {
   width: 100%;
@@ -316,6 +318,7 @@ figcaption {
   align-items: center;
   justify-content: center;
   background-image: url(../image/home/search\ banner.png);
+  /* აქაც სურათი რეალურად შცვლილი მაქვს მაგრამ ფეიჯზე არ მჩვენებს, ინსპექტიდან რომ ვშლი იქ უკვე რეალურად რა სურათიც უნდა მქონდეს ის შემოაქვს  */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
